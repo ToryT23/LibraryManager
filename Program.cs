@@ -18,11 +18,11 @@ namespace libraryExercise
             Console.WriteLine($"Welcome to the {managerLib.Name} Library Management System!");
 
 
-
             // In the main method, create an instance of
             // the Book class,   and save its value as a variable
-            List<Book> librayBook = new List<Book>();
-
+            //another example of an instance could be 
+            // List<Book> librayBook = new List<Book>();
+            
             Book helloWorld = new Book()
             {
                 Title = "Hello You",
@@ -47,7 +47,9 @@ namespace libraryExercise
             };
            
             
-            var listOfBooks = new List<Book>() { helloWorld, newPractice, anotherOne };
+            // In the main method, create an instance of
+            // the Book class,   and save its value as a variable
+        var listOfBooks = new List<Book>() { helloWorld, newPractice, anotherOne };
 
 // Iterate over that list of books, and print the title and author to the
 // Console in the loop in the same format as in 6.
